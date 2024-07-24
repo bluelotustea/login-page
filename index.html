@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<body>
+    <div class="login-form">
+        <div class="avatar">
+            <img src="https://i.pinimg.com/564x/de/6e/8d/de6e8d53598eecfb6a2d86919b267791.jpg" alt="avatar imh" />
+        </div>
+        <div class="container">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter your Email" name="email" id="email" />
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter your password" name="password" id="password" />
+            <span id="warning">Wrong Password Moron!!</span>
+            <input type="checkbox" onclick="showpw()" id="showpw" /><label for="showpw" id="showpasslab">Show
+                Password</label>
+            <button type="submit" class="btn-login">Login</button>
+        </div>
+    </div>
+    <script src="authXstorage.js"></script>
+</body>
+
+</html>
